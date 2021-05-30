@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.leaflet-popup-content {
+  text-align: center;
+}
+
+
+  .legend {
+    color: #555;
+    padding: 6px 8px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+ 
+  .legend ul {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    clear: both;
+  }
+  .legend li {
+   text-align:center;
+   float: left;
+    width: 35px;
+    height: 25px;
+  }
+  
